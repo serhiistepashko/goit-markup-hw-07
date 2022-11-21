@@ -1,0 +1,22 @@
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  border: 1px solid var(--modal-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-close__icon {
+  transition: fill var(--duration-1) var(--timing-function-1);
+}
+
+.btn-close__icon--hovered:hover {
+  fill: var(--bluelite-color);
+}

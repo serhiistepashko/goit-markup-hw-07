@@ -1,0 +1,46 @@
+.contacts {
+  display: flex;
+  margin-left: auto;
+  gap: 30px;
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 32px 0;
+  transition: color var(--duration-1) var(--timing-function-1);
+  position: relative;
+}
+
+.contacts__link:hover {
+  color: var(--bluelite-color);
+}
+
+.contacts__link:focus {
+  color: var(--bluelite-color);
+}
+
+.contacts__icon {
+  margin-right: 10px;
+  fill: var(--secondary-color);
+}
+
+
+.contacts__link:hover .contacts__icon {
+  fill: var(--bluelite-color);
+}
+
+.contacts__link:focus .contacts__icon {
+  fill: var(--bluelite-color);
+}
+
+.contacts__link {
+  color: var(--secondary-color);
+}
+

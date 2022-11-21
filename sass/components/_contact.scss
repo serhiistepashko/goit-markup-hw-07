@@ -1,0 +1,39 @@
+.contact {
+  font-style: normal;
+}
+
+/* ще одна назва класу для списку тегу address у футері */
+.contact__list {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+/* інші елементи списку у тезі address email та tel (футер) */
+.contact__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+/* посилання елементів списку у тезі address (футер) */
+.contact__link {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color var(--duration-1) var(--timing-function-1);
+}
+
+.contact__link--white {
+  color: var(--white-color);
+}
+
+/*ховер посилання елементів списку у тезі address (футер) */
+.contact__link:hover {
+  color: var(--bluelite-color);
+}
+
+/*фокус посилання елементів списку у тезі address (футер) */
+.contact__link:focus {
+  color: var(--bluelite-color);
+}

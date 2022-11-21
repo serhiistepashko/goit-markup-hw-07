@@ -1,0 +1,16 @@
+.page-footer {
+  background-color: var(--banner-color);
+}
+
+.page-footer__thumb {
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__logo {
+  color: var(--white-color);
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 0;
+  margin-right: 156px;
+}
